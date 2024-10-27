@@ -1,0 +1,40 @@
+dataframes list
+
+- sch_df 
+	is the 1st read csv file
+
+- stu_df
+	is the 2nd read csv file
+
+- school_info_df
+	is the merged dataframe of both csv files
+
+- district_summary_df 
+	is the snap shot of all merged info
+
+- School_summary_df
+	is schools comparison of passing :reading, math and overall
+
+- top_schools
+	is schools decending list by overall passing
+
+-lowest schools
+	is school in assending list
+
+- math_score_by_grade
+	is schools math score comparison
+
+- reading_scores_by_grade
+	is schools reading score comparison
+
+- school_spending_df
+	schools binned by budget per student
+
+- school_size_df
+	schoos binned by # of students
+
+
+
+
+Chat Gpt was used to assist with certain formatting aspects like "school_spending_df['Per Student Budget'] = school_spending_df['Per Student Budget'].replace(r'[\$,]', '', regex=True).astype(float)"
+
