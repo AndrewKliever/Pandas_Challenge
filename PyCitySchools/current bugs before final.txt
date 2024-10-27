@@ -1,9 +1,0 @@
-current bugs before final
-
-- 	school_summary_df (3) percentage columns are not formulated correctly and are not dividing by the correct student count for the 	correlated school.
-
-- 	math and reading scores by grade are not structured correctly and show school name next to each value
-
--	school_spending_df & school_size_df are not not binning or grouping correctly. 
-
-	
